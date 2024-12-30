@@ -5,6 +5,7 @@
 .location-page {
 
   &__main-content {
+    background-color: $color-green-light;
     display: grid;
     grid-template-columns: 0 auto;
     max-width: 1440px;

@@ -55,7 +55,7 @@
     width: 55px;
     height: 55px;
     padding: 10px;
-    border-radius: 60px;
+    border-radius: 30px;
     border: 2px solid $color-default;
     font-size: 30px;
     color: $color-default;
@@ -182,7 +182,7 @@
 
 
 
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 1350px) {
   .image-carousel {
 
     &__images-container {
@@ -200,10 +200,10 @@
     }
 
     &__description {
-      position: absolute;
-      bottom: 4px;
+      position: relative;
+      bottom: 0px;
       left: 0;
-      width: 35%;
+      width: 15%;
       height: auto;
       margin-top: auto;
       padding: 40px;

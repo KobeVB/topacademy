@@ -22,7 +22,7 @@ export default class Album extends Component {
 					<div className={css["album-page__main-content"]}>
 						<div id="album-page__short-description" key="album-page__short-description" className={css["album-page__short-description"]}>
 							<section className={css["rich-text-section--with-navigator"]}>
-								<h2 className={css["rich-text-section__title"]}>What will we learn</h2>
+								<h2 className={css["rich-text-section__title"]}>Information about the album</h2>
 								<div className={css["rich-text-section__rich-text"]}>{RichTextToHTML({ document: this.props.blok.description })}</div>
 							</section>
 						</div>

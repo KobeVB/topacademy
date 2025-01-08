@@ -40,7 +40,7 @@
       "foot foot foot";
 
     h1 {
-      font-size: 36px;
+      font-size: 56px;
     }
   }
 }
@@ -54,7 +54,7 @@
 .head {
   grid-area: head;
   text-align: center;
-  background-color: $color-red-normal;
+  background-color: $color-blue-normal;
   color: white;
   display: flex;
   align-items: center;
@@ -75,16 +75,16 @@
   grid-area: side;
 
   img {
-    max-width: 150px;
+    max-width: 250px;
     border-radius: 20px;
   }
 }
 
 
 .artistdetailitem {
-  font-size: 16x;
-  font-weight: 700;
-  padding: 5px 10px;
+  font-size: 34px;
+  font-weight: 70;
+  padding: 20px 20px;
 }
 
 

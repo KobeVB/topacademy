@@ -71,7 +71,7 @@
     }
     &--0 {
       @extend .main-header__nav-item;
-      position: relative;
+      position: relative; 
       display: none;
       
       &:hover {
@@ -84,8 +84,8 @@
       @extend .main-header__nav-item;
       display: none;
       padding-top: 20px;
-    }
     
+    }
     &--last{
       @extend .main-header__nav-item;
 
